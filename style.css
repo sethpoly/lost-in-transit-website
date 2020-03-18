@@ -1,0 +1,156 @@
+.document {
+    align-content: center;
+    margin: auto;
+    font-family:monospace;
+}
+
+
+img {
+
+}
+.titleGraphic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.steamIcon {
+    height: 32px;
+    width: 32px;
+}
+
+.gmailIcon {
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin-right: 6px;
+}
+
+.twitterIcon {
+    height: 48px;
+    width: 48px;
+    float: left;
+}
+
+.comingSoon {
+    width: 70%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    
+    border: 1px solid white;
+    background: #2f283a;
+    padding: 5px;
+}
+
+.steam-link {
+    color: white;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 32px;
+    
+    border: 1px solid white;
+    background: #2f283a;
+    padding: 5px;
+    padding: 5px;
+}
+
+.contactLines {
+    text-align: center;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: white;
+}
+
+.icon-link:hover {
+    color: beige;
+}
+
+.icon {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.smallText{
+    font-size: 22px;
+}
+
+.description{
+    font-size: 22px;
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+p {
+    color: white;
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+p, h2, .wishlist {
+    font-family:monospace;
+}
+
+body {
+   
+  background:  url('stars.png');
+  background-repeat:repeat;
+}
+
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    color: black;
+    background: beige;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  text-align: center;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 4px;
+  vertical-align: middle;
+  height: 270px;
+  width: 480px;
+}
+
+@media only screen and (max-width: 700px) {
+    .steam-link {
+        width: 90%;
+    }
+}
